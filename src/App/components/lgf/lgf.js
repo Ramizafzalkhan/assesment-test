@@ -1,5 +1,8 @@
 import React from 'react'
+import App from '../../App'
 import * as classes from './lgfStyles'
+
+
 function Lgf() {
     const item = [
         { id: 1, title: "Governance and Utility" },
@@ -10,7 +13,7 @@ function Lgf() {
         { id: 6, title: "Utilities" },
     ]
     return (
-        <div className="container mx-auto pb-36 pt-14">
+        <div className="container mx-auto pb-36 pt-14 lgs-section">
             <div className="grid grid-cols-2 gap-4">
                 <div>
                     <h2 className="text-4xl font-bold text-white  mb-10">$LFG Token</h2>
@@ -21,7 +24,7 @@ function Lgf() {
                                 <p className="font-bold text-white text-xl">{item.title}</p>
                             </div>
                         ))}
-                        <button className="btn btn-default">
+                        <button className="btn btn-default text-white">
                             Tokenomics
                         </button>
                     </div>

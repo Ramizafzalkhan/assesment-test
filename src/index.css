@@ -35,6 +35,12 @@ code {
     max-width: 180px;
     padding: 16px 48px;
   }
+  .lgs-section::before{
+    background-image: url('assets/images/icon-swap.svg');
+    content: '';
+    position: absolute;
+    top: 0
+}
   /* .icon::before{
     content: '';
     background-image: url('assets/images/icon-swap.svg');
