@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   padding: 0;
@@ -35,18 +39,14 @@ code {
     max-width: 180px;
     padding: 16px 48px;
   }
-  .lgs-section::before{
-    background-image: url('assets/images/icon-swap.svg');
-    content: '';
-    position: absolute;
-    top: 0
-}
-  /* .icon::before{
-    content: '';
-    background-image: url('assets/images/icon-swap.svg');
-    display: block;
-    top: 0;
-  } */
+ .bg-app{
+   background: linear-gradient(95.87deg, #C4C4C4 0%, #044CD7 0.01%, #B11CC9 100%);
+   border-radius: 2.4375rem;
+   min-height: 25rem;
+ }
+ .app{
+   bottom: -75px;
+ }
 
 @tailwind base;
 @tailwind components;

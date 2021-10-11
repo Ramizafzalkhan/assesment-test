@@ -12,8 +12,8 @@ function Feature() {
         { id: 7, name: "NFT Vault", des: "Safely and securely store your precious NFTs in your personal NFT Vault. Accessible by password on browser version or using Face ID on iPhone, Swap Vault ensures an extra layer of security with 2FA and platform insurance protocols." },
     ];
     return (
-        <div>
-            <div className="container mx-auto feature relative">
+        <div className="feature-section">
+            <div className="container mx-auto">
                 <h2 className="text-4xl font-bold text-white text-center mb-10">Features</h2>
                 <div class="grid grid-cols-4 gap-4 mx-auto">
                     {item.map((item) => (

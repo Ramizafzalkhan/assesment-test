@@ -5,22 +5,22 @@ function Community() {
     const ctg = ['gaming', 'metaverse', 'joneDoe'];
     const data = {
         gaming: [
-            { id: 1, name: "Gaming LFG", ctg: 'gaming', image: "assets/images/gaming-lfg-two.jpg" },
+            { id: 1, name: "Gaming LFG", ctg: 'gaming', image: "assets/images/gaming-lfg-one.jpg" },
             { id: 6, name: "Jane Doe 3", ctg: 'gaming', image: "assets/images/gaming-lfg-three.jpg" },
-            { id: 4, name: "Jane Do 1", ctg: 'gaming', image: "assets/images/gaming-lfg-three.jpg" },
-            { id: 4, name: "Jane Do 1", ctg: 'gaming', image: "assets/images/gaming-lfg-three.jpg" },
+            { id: 4, name: "Jane Do 1", ctg: 'gaming', image: "assets/images/gaming-lfg-two.jpg" },
+            { id: 4, name: "Jane Do 1", ctg: 'gaming', image: "assets/images/gaming-lfg-four.jpg" },
         ],
         metaverse: [
-            { id: 5, name: "Jane Doe 2", ctg: 'metaverse', image: "assets/images/gaming-lfg-three.jpg" },
-            { id: 2, name: "Metaverse", ctg: 'metaverse', image: "assets/images/gaming-lfg-two.jpg" },
-            { id: 4, name: "Jane Do 1", ctg: 'gaming', image: "assets/images/gaming-lfg-three.jpg" },
-            { id: 7, name: "Jane Doe 4", ctg: 'metaverse', image: "assets/images/gaming-lfg-three.jpg" },
+            { id: 5, name: "Jane Doe 2", ctg: 'metaverse', image: "assets/images/meta-one.jpg" },
+            { id: 2, name: "Metaverse", ctg: 'metaverse', image: "assets/images/meta-two.jpg" },
+            { id: 4, name: "Jane Do 1", ctg: 'gaming', image: "assets/images/meta-three.jpg" },
+            { id: 7, name: "Jane Doe 4", ctg: 'metaverse', image: "assets/images/meta-four.jpg" },
         ],
         joneDoe: [
-            { id: 3, name: "Jane Doe", ctg: 'jane-doe', image: "assets/images/gaming-lfg-three.jpg" },
-            { id: 4, name: "Jane Do 1", ctg: 'gaming', image: "assets/images/gaming-lfg-three.jpg" },
-            { id: 4, name: "Jane Do 1", ctg: 'gaming', image: "assets/images/gaming-lfg-three.jpg" },
-            { id: 8, name: "Jane Doe 5", ctg: 'jane-doe', image: "assets/images/gaming-lfg-three.jpg" },
+            { id: 3, name: "Jane Doe", ctg: 'jane-doe', image: "assets/images/vr-one.jpg" },
+            { id: 4, name: "Jane Do 1", ctg: 'gaming', image: "assets/images/vr-two.jpg" },
+            { id: 4, name: "Jane Do 1", ctg: 'gaming', image: "assets/images/vr-three.jpg" },
+            { id: 8, name: "Jane Doe 5", ctg: 'jane-doe', image: "assets/images/vr-four.jpg" },
         ]
     }
 
