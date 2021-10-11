@@ -47,6 +47,9 @@ code {
  .app{
    bottom: -75px;
  }
+ .icon-mail{
+  color: rgba(4, 76, 215, 1);
+ }
 
 @tailwind base;
 @tailwind components;
