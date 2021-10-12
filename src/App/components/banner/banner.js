@@ -6,9 +6,8 @@ import React from 'react'
 function Banner() {
   return (
     // <Section>
-   <div style={{background:'url(/assets/images/banner-circle.png)top right no-repeat'}}>
     <div className="container mx-auto">
-      <div className="grid grid-cols-2 gap-4 py-56">
+      <div className="grid grid-cols-2 gap-4">
           <div>
             <h1 className="text-6xl pt-32 font-bold	text-white mb-8">
               The <span className="text-blue-600">First </span> NFT Social
@@ -17,7 +16,7 @@ function Banner() {
             <p className="text-gray-300 text-2xl mb-8">
               Lorem is the first social-media platform of its kind, bringing NFTs to the everyday consumer through our cross-platform and cross-chain aggregator marketplace.
             </p>
-            <button className="btn btn-default">
+            <button className="btn btn-default text-white">
                Launch App
             </button>
             {/* <Button>Launch App</Button>   */}
@@ -28,7 +27,7 @@ function Banner() {
           </div>
         </div>
     </div>
-    </div>
+
      
       
 
